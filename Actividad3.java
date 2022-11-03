@@ -15,6 +15,15 @@ public class Actividad3{
     int suma = valor1 + valor2;
     
     System.out.println("La suma de " + valor1 + " y " + valor2 + " es " + suma);
+
+     if ( numero % 2 == 0 )
+        {
+            System.out.printf( "ES PAR" );
+        }
+        else
+        {
+            System.out.printf( "ES IMPAR" );
+        }
     
     sc.close();
     
